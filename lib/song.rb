@@ -46,8 +46,8 @@ class Song
     self.name = song_name
     
     song
-    end
-  
+      end
+    songs
   end
 
   def self.all
