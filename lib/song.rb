@@ -39,7 +39,6 @@ class Song
     song_data = file_name.split(/-./)
     song.artist_name = song_data[0]
     song.name = song_data[1]
-    
   end
 
   def self.all
