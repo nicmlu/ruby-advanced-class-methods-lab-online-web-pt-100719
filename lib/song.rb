@@ -47,6 +47,10 @@ class Song
     song = self.new_from_filename(file_name)
     self.all.push(song)
   end
+  
+  def destory_all
+    self.all.clear
+  end
 
   def self.all
     @@all
