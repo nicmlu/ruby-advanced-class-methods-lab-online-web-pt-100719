@@ -38,7 +38,7 @@ class Song
     song = self.create
     info = file_name.split('-')
     song.artist_name = info[0]
-    name = info[1]
+    name = info[1].chomp
     song.name = name 
     song
   end
