@@ -48,7 +48,7 @@ class Song
     self.all.push(song)
   end
   
-  def destory_all
+  def self.destory_all
     self.all.clear
   end
 
