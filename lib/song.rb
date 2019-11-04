@@ -37,7 +37,7 @@ class Song
   def self.new_from_filename(file_name)
     rows = file_name.split("-")
     songs = rows.collect do |row|
-    data = row.split(".")
+    data = row.split(".mp3")
     artist_name = data[0]
     name = data[1]
     
