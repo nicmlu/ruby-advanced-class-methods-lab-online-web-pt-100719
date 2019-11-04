@@ -38,7 +38,6 @@ class Song
     song = self.new
     row = file_name.split("-")
     song_data = row.split(".")
-      
     song.artist_name = song_data[0]
     song.name = song_data[1]
   end
