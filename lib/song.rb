@@ -40,6 +40,8 @@ class Song
     data = row.split(".mp3")
     artist_name = data[0]
     song_name = data[1]
+    
+    
     end
   
   end
